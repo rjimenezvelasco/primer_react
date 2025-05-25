@@ -1,0 +1,27 @@
+.menu-bar {
+  width: 100%;
+  background-color: #333;
+  padding: 1rem;
+}
+
+.menu-options {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-options li {
+  margin-left: 2rem;
+}
+
+.menu-options a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.menu-options a:hover {
+  color: #646cff;
+}

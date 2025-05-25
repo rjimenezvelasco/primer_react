@@ -1,10 +1,17 @@
-import Titulo from "./components/Titulo";
+//import Titulo from "./components/Titulo";
+//import Header from "./components/Header";
+import { Fragment } from "react/jsx-runtime";
 import Header from "./components/Header";
+import MenuBar from "./components/MenuBar";
+import VideoPlayer from "./components/VideoPlayer";
 
 function App() {
   return (
-    <Header />
-   
+    <Fragment>
+      <Header />
+      <MenuBar />
+      <VideoPlayer />
+  </Fragment>
   )
 }
 
